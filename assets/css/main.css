@@ -326,7 +326,8 @@ input, select, textarea {
 		}
 
 		.row > .col-7 {
-			width: 58.33333%;
+			width: 38%;
+			border: 4px solid rgb(44, 82, 41);
 		}
 
 		.row > .off-7 {
@@ -426,6 +427,7 @@ input, select, textarea {
 
 		.row {
 			margin-top: -40px;
+			margin-bottom: -35px;
 			margin-left: -40px;
 		}
 
@@ -1591,6 +1593,8 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
+			height: 450px;
+			object-fit: cover;
 			border-radius: 8px;
 		}
 
@@ -1634,7 +1638,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background: #0090c5;
+		background: rgb(96, 187, 87);
 		color: #fff;
 		text-decoration: none;
 		border-radius: 6px;
@@ -1705,7 +1709,7 @@ input, select, textarea {
 		input[type="reset"].large,
 		button.large,
 		.button.large {
-			font-size: 2.25em;
+			font-size: 1.8em;
 			padding: 0.8em 0.9em;
 		}
 
@@ -1791,6 +1795,7 @@ input, select, textarea {
 
 			.box.feature .inner {
 				padding: 4em 2em 3em 2em;
+				height: 230px;
 			}
 
 			.box.feature h2 {
@@ -1908,7 +1913,7 @@ input, select, textarea {
 /* Wrappers */
 
 	#header-wrapper {
-		padding: 4.5em 0 3em 0;
+		padding: 1.5em 0 0em 0;
 	}
 
 	#features-wrapper {
@@ -2074,17 +2079,22 @@ input, select, textarea {
 
 	#banner {
 		position: relative;
-		padding: 4.5em;
+		padding: 3.5em;
 	}
 
 		#banner h2 {
-			font-size: 3.5em;
+			font-size: 4.5em;
+			font-style: italic;
+			font-family:'Oleo Script', serif;
+			color: rgb(44, 82, 41);
 			margin: 0.1em 0 0.35em 0;
 		}
 
 		#banner p {
-			font-size: 2.75em;
+			font-size: 2.0em;
+			font-family: 'Open Sans', sans-serif;
 			line-height: 1.35em;
+			color: rgb(44, 82, 41);
 			margin: 0;
 		}
 
